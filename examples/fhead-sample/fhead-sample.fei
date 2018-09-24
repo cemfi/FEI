@@ -1,0 +1,141 @@
+<fei>
+    <fhead>
+        <titleStmt>
+            <title>Berlin</title>
+            <title type="subtitle">Die Sinfonie der Großstadt</title>
+            </titleStmt>
+
+            <prodStmt>
+                <production>
+                <corpName>Fox-Europa Film</corpName>
+                </production>
+                <address>
+                    <addrLine>
+                        <geogName authURI="www.getty.edu/research/tools/vocabularies/tgn" authority="TGN" dbkey="7000084">Germany</geogName>
+                    </addrLine>
+                </address>
+                <date>1927</date>
+            </prodStmt>
+
+        <genre>
+            <genreItem>Dokumentarfilm</genreItem>
+            <genreItem>Avantgarde</genreItem>
+        </genre>
+
+        <crewList>
+            <crewItem>
+                <persName>Walter Ruttmann</persName>
+                <role>director</role>
+                <role>
+                    <roleDesc>writing</roleDesc>
+                    <roleContext>screenplay</roleContext>
+                </role>
+                <role>editor</role>
+            </crewItem>
+            <crewItem>
+                <persName>Karl Freund</persName>
+                <role>
+                    <roleDesc>writing</roleDesc>
+                    <roleContext>screenplay</roleContext>
+                </role>
+                <role>producer</role>
+            </crewItem>
+            <crewItem>
+                <persName>Carl Mayer</persName>
+                <role>
+                    <roleDesc>writing</roleDesc>
+                    <roleContext>idea</roleContext>
+                </role>
+            </crewItem>
+            <crewItem>
+                <persName>Robert Baberske</persName>
+                <role>camera</role>
+            </crewItem>
+            <crewItem>
+                <persName>Reimar Kuntze</persName>
+                <role>camera</role>
+                <role>
+                    <roleDesc>music</roleDesc>
+                    <roleContext>performer</roleContext>
+                </role>
+            </crewItem>
+            <crewItem>
+                <persName>Láslo Schäffer</persName>
+                <persName credited>Laszlo Schäffer</persName>
+                <role>camera</role>
+            </crewItem>
+            <crewItem>
+                <persName>Edmund Meisel</persName>
+                <role>music</role>
+            </crewItem>
+            <crewItem>
+                <corpName>Rundfunk-Sinfonieorchester Berlin</corpName>
+                <role>
+                    <roleDesc>music</roleDesc>
+                    <roleContext>performer</roleContext>
+                    <editionReference target="r09" />
+                </role>
+            </crewItem>
+            <crewItem>
+                <corpName>The Olympia Chamber Orchestra</corpName>
+                <role>
+                    <roleDesc>music</roleDesc>
+                    <roleContext>performer</roleContext>
+                    <editionReference target="94" />
+                </role>
+            </crewItem>
+            <crewItem>
+                <persName>Bernd Thewes</persName>
+                <role>
+                    <roleDesc>music</roleDesc>
+                    <roleContext>arranger</roleContext>
+                    <editionReference target="r09" />
+                </role>
+            </crewItem>
+        </crewList>
+
+
+        <availabilty>
+            <accessRestrict>
+                <date>11.06.1927</date>
+                <caseNumber>B 15891</caseNumber>
+            </accessRestrict>
+        </availabilty>
+
+
+        <pubStmt context="premiere">
+            <address>
+                <addrLine>Tauentzien-Palast</addrLine>
+                <addrLine>Berlin</addrLine>
+                <addrLine>Germany</addrLine>
+            </address>
+            <date>23.09.1927</date>
+        </pubStmt>
+
+        <editionStmt>
+            <edition current id="r09">
+                <editionDesc>restaurierte Fassung</editionDesc>
+                <date>2009</date>
+                <duration>64:22</duration>
+                <color>grayscale</color>
+                <sound>mute</sound>
+            </edition>
+            <edition id="94">
+                <date>1994</date>
+                <color>grayscale</color>
+                <sound>mute</sound>
+            </edition>
+        </editionStmt>
+
+        <generalInfo>
+            <analogLength unit="m">1466</analogLength>
+            <dramaturgy>
+                <actCount>5</actCount>
+            </dramaturgy>
+        </generalInfo>
+
+        <source>
+            <identifier type="URI">Berlin.mp4</identifier>
+        </source>
+    </fhead>
+</fei>

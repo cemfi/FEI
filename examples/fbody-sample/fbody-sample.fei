@@ -1,0 +1,119 @@
+<fei>
+    <sequenceStmt>
+        <sequence id="1">
+            <summary>Vorspann</summary>
+
+            <timecodeStart>00:00:00</timecodeStart>
+            <timecodeEnd>00:01:36</timecodeEnd>
+            <duration>00:01:36</duration>
+
+            <sceneStmt>
+                <scene id="1">
+                    <summary>Restaurierungshinweis</summary>
+
+                    <timecodeStart>00:00:00</timecodeStart>
+                    <timecodeEnd>00:00:23</timecodeEnd>
+                    <duration>00:00:23</duration>
+
+                    <quantStmt>
+                        <quantItem type="cutCount">3</quantItem>
+                    </quantStmt>
+
+                    <notesStmt>
+                        <annot type="sceneSummary">
+                            <frame target="00:00:00:00">
+                                <caption>Restaurierungshinweis</caption>
+                                <frameDesc>Weißer Text auf schwarzem Grund</frameDesc>
+                            </frame>
+                        </annot>
+                    </notesStmt>
+                </scene>
+                <scene>
+                    <summary>Vorspann (Titel, Stab)</summary>
+                    
+                    <timecodeStart>00:00:23</timecodeStart>
+                    <timecodeEnd>00:01:36</timecodeEnd>
+                    <duration>00:01:13</duration>
+                    
+                    <quantStmt>
+                        <quantItem type="cutCount">7</quantItem>
+                    </quantStmt>
+
+                    <notesStmt>
+                        <annot type="sceneSummary">
+                            <frame target="00:00:24:22">
+                                <caption>Vorspann</caption>
+                                <frameDesc>Weißer Text auf schwarzem Grund</frameDesc>
+                            </frame>
+                        </annot>
+                    </notesStmt>
+                </scene>
+            </sceneStmt>
+        </sequence>
+        <sequence>
+            <scene>
+                <shot id="486">
+                    <summary>Eine Frau lunzt durch einen Vorhang in den Hörsaal</summary>
+
+                    <timecodeStart>00:56:13</timecodeStart>
+                    <timecodeEnd>00:56:14</timecodeEnd>
+                    <duration>00:00:01</duration>
+
+                    <quantStmt>
+                        <quantItem type="focalPoint">Zentrum</quantItem>
+                        <quantItem type="framingType">Halbnahe</quantItem>
+                        <quantItem>
+                            <cut type="tb">
+                                <cutDesc>Überblendung zu schwarz</cutDesc>
+                            </cut>
+                        </quantItem>
+                    </quantStmt>
+                    
+                    <notesStmt>
+                        <annot type="shotSummary">
+                            <shotSummary>
+                                <frame target="00:56:13:00" />
+                            </shotSummary>
+                        </annot>
+                        <annot type="shotDesc">Frau vor einem Vorhang</annot>
+                    </notesStmt>
+
+                </shot>
+                <shot id="487">
+                    <summary>Das Publikum wartet gespannt auf die Eröffnung des Orchesters</summary>
+                    
+                    <timecodeStart>00:56:14</timecodeStart>
+                    <timecodeEnd>00:56:17</timecodeEnd>
+                    <duration>00:00:03</duration>
+                    
+                    <quantStmt>
+                        <quantItem type="focalPoint">Horizontale Mitte</quantItem>
+                        <quantItem type="framingType">Halbtotale</quantItem>
+                        <quantItem>
+                            <cut type="tb">
+                                <cutDesc>Überblendung zu nächster Szene</cutDesc>
+                                <cutDesc>rasand</cutDesc>
+                                <frameReference target="01:02:03:04" />
+                            </cut>
+                        </quantItem>
+                        <quantItem>
+                            <motionStmt>
+                                <motionItem>Kamerafahrt von rechts nach links</motionItem>
+                                <motionItem>Über das Publikum geschwenkt</motionItem>
+                            </motionStmt>
+                        </quantItem>
+                    </quantStmt>
+                    
+                    <notesStmt>
+                        <annot type="shotSummary">
+                            <shotSummary>
+                                <frame target="00:56:14:00" />
+                            </shotSummary>
+                        </annot>
+                        <annot type="shotDesc">Publikum vor einer Bühne</annot>
+                    </notesStmt>
+                </shot>
+            </scene>
+        </sequence>
+    </sequenceStmt>
+</fei>
