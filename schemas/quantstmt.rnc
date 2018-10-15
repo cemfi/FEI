@@ -1,0 +1,24 @@
+quantstmt = element quantstmt {
+    attribute id { xsd:string }?,
+    attribute type { xsd:string }?,
+    element quantdesc { xsd:string }?,
+    quantitem+
+}
+
+quantitem = element quantitem { # TODO: Entwirren
+(
+    attribute type { xsd:string }?,
+    ((
+        timecode,
+        element value { xsd:decimal }
+    ) | (
+        timecode_range?,
+        element source { xsd:string }
+    ))
+    ) | (
+    
+    attribute type { "camera" },
+    xsd:string { pattern = "(HN|HT|...)" } # TODO: match cameras
+
+)
+}

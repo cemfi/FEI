@@ -1,0 +1,15 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+timecode = (
+    element timecode { timecode_format }
+)
+
+timecode_range = (
+    element timecodestart { timecode_format } | 
+    (
+        element timecodestart { timecode_format },
+        element timecodeend { timecode_format }
+    )
+)
+
+timecode_format = xsd:string { pattern = "\d{2}:\d{2}:\d{2}" }

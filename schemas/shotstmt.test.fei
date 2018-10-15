@@ -1,0 +1,14 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <shotstmt>
+        <shot id="0">
+            <summary>START</summary>
+            <timecodestart>00:00:00</timecodestart>
+        </shot>
+        <shot id="1">
+            <summary>START</summary>
+            <timecodestart>00:00:01</timecodestart>
+        </shot>
+    </shotstmt>
+</test>

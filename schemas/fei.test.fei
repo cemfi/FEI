@@ -1,0 +1,15 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <fei>
+        <fhead>Test</fhead>
+        <fbody>
+            <quantstmt>
+                <quantitem>
+                    <timecode>00:00:00</timecode>
+                    <value>13</value>
+                </quantitem>
+            </quantstmt>
+        </fbody>
+    </fei>
+</test>

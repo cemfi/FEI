@@ -1,0 +1,7 @@
+include "_FEI.rnc"
+
+start = test
+
+test = element test {
+    timecode*
+}

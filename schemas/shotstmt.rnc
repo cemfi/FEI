@@ -1,0 +1,11 @@
+shotstmt = element shotstmt {
+    shot*
+}
+
+shot = element shot {
+    attribute id { xsd:string }?,
+    element summary { xsd:string }?,
+    timecode_range?,
+    element duration { timecode }?,
+    (quantstmt*)?
+}

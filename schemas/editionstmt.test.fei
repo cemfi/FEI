@@ -1,0 +1,15 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <editionstmt>
+        <edition id="current">
+            <date>April 2001</date>
+            <duration>00:09:22</duration>
+            <source>Father and Daughter HD.mp4</source>
+        </edition>
+        <edition id="04jpth">
+            <date>2004</date>
+            <desc>theatrical</desc>
+        </edition>
+    </editionstmt>
+</test>

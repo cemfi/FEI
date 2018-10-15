@@ -1,0 +1,10 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <quantstmt>
+        <quantitem>
+            <timecode>01:02:03</timecode>
+            <value>42</value>
+        </quantitem>
+    </quantstmt>
+</test>
