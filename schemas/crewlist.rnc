@@ -1,0 +1,8 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+crewlist = element crewlist {
+    element crewitem {
+        namelike &
+        element role { text }*
+    }+
+}

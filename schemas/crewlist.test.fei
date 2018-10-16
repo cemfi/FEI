@@ -1,0 +1,20 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <crewlist>
+        <crewitem>
+            <role>director</role>
+            <role>writer</role>
+            <role>animation and backgrounds</role>
+            <persname>Michael Dudok de Wit</persname>
+        </crewitem>
+        <crewitem>
+            <role>additional animation</role>
+            <persname>Arjan Wilschut</persname>
+        </crewitem>
+        <crewitem>
+            <role>mixing</role>
+            <corpname>Studio SPR</corpname>
+        </crewitem>
+    </crewlist>
+</test>

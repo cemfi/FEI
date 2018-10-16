@@ -1,6 +1,7 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 include "any.rnc"
+include "crewlist.rnc"
 include "date.rnc"
 include "editionstmt.rnc"
 include "fei.rnc"
