@@ -7,3 +7,7 @@ editionstmt = element editionstmt {
         attribute id { xsd:string }
     }+
 }
+
+editionreference = element editionreference {
+    attribute target { xsd:string }
+}
