@@ -1,0 +1,16 @@
+prodstmt = element prodstmt {
+    (production*)?,
+    (distributor*)?,
+    (proditem*)?
+}
+
+production = element production { namelike+, editionreference? }
+
+distributor = element distributor { namelike+, editionreference? }
+
+proditem = element proditem {
+    proddesc?,
+    namelike+
+}
+
+proddesc = element proddesc { xsd:string }
