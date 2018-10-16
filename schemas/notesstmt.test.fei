@@ -1,0 +1,12 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <notesstmt>
+        <annot type="sceneSummary">
+            <frame target="00:00:24">
+                <caption>Vorspann</caption>
+                <framedesc>Weißer Text auf schwarzem Grund</framedesc>
+            </frame>
+        </annot>
+    </notesstmt>
+</test>

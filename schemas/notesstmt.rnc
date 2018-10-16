@@ -1,0 +1,24 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+notesstmt = element notesstmt {
+    annot+
+}
+
+annot = element annot {
+    attribute type { xsd:string }?,
+    ( frame | xsd:string )
+}
+
+frame = element frame {
+    attribute target { timecode_format },
+    (
+        (
+            element caption { xsd:string }
+        ) | (
+            element caption { xsd:string } &
+            element framedesc { xsd:string }
+        ) | (
+            xsd:string
+        )
+    )
+}
