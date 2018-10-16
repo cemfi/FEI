@@ -1,0 +1,23 @@
+<?fei version="1.0" encoding="UTF-8"?>
+
+<test>
+    <motion>
+        <from>r</from>
+        <to>l</to>
+    </motion>
+    <motion>
+        <from>
+            <x>513</x>
+            <y>720</y>
+        </from>
+        <to>
+            <x>1000</x>
+            <y>1000</y>
+        </to>
+    </motion>
+    <motion>
+        <x>513</x>
+        <y>720</y>
+        <vector>270</vector>
+    </motion>
+</test>

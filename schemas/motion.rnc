@@ -1,0 +1,46 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+motion = element motion { 
+    direction |
+    motion_vector |
+    motion_fromto
+}
+
+motion_vector = (
+    element x { number },
+    element y { number },
+    element vector { direction }
+)
+
+motion_fromto = (
+    element from { directionOrPoint },
+    element to { directionOrPoint }
+)
+
+directionOrPoint = (direction | point)
+direction = xsd:string { pattern = "[\-\.0-9]+" } | direction_keyword
+point = (
+    element x { number },
+    element y { number }
+)
+
+number = xsd:string { pattern = "[\-\.0-9]+" }
+
+direction_keyword = (
+    "right" |
+    "left" |
+    "up" |
+    "down" |
+    "upleft" | "leftup" |
+    "downleft" | "leftdown" |
+    "downright" | "rightdown" |
+    "upright" | "rightup" |
+    "r" |
+    "l" |
+    "u" |
+    "d" |
+    "ul" | "lu" |
+    "dl" | "ld" |
+    "dr" | "rd" |
+    "ur" | "ru"
+)
