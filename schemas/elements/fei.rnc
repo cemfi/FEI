@@ -1,16 +1,21 @@
 fei = element fei {
-    element fhead { xsd:string },
-    fbody
+    fhead?,
+    fbody?
 }
 fei_element |= fei
 
+fhead = element fhead {
+    fheadcontent*
+}
 
 fbody = element fbody {
-    fbodystatement*
+    fbodycontent*
 }
-fei_element |= fbody
 
+fheadcontent = (
+    titlestmt | editionstmt | prodstmt
+)
 
-fbodystatement = (
-    quantstmt | editionstmt | shotstmt
+fbodycontent = (
+    quantstmt | shotstmt | notesstmt
 )

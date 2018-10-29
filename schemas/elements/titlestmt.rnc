@@ -1,0 +1,15 @@
+titlestmt = title_shorthand | element titlestmt {
+    title+
+}
+fei_element |= titlestmt
+fheadcontent |= titlestmt
+
+title = element title {
+    attribute type { "subtitle" }?,
+    attribute lang { xsd:string }?,
+    xsd:string
+}
+
+title_shorthand = element title {
+    xsd:string
+}

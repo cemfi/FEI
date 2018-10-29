@@ -1,0 +1,19 @@
+<?fei version="1.0" encoding="UTF-8"?>
+<!-- FEI element test -->
+
+<test>
+    <titlestmt>
+        <title>Father and Daughter</title>
+    </titlestmt>
+    <titlestmt>
+        <title>The Lord of the Rings</title>
+        <title type="subtitle">The Fellowship of the Ring</title>
+    </titlestmt>
+    <titlestmt>
+        <title lang="en">RED</title>
+        <title lang="de">R.E.D.</title>
+        <title lang="de" type="subtitle">Älter. Härter. Besser.</title>
+    </titlestmt>
+    <!-- Shorthand variant: -->
+    <title>Film title</title>
+</test>
