@@ -1,8 +1,21 @@
-titlestmt = title_shorthand | element titlestmt {
-    title+
-}
+titlestmt = title_shorthand | titlestmt_onelang | titlestmt_mixedlang
 fei_element |= titlestmt
 fheadcontent |= titlestmt
+
+titlestmt_onelang = element titlestmt {
+    attribute lang { xsd:string },
+    title_nolang+
+}
+
+titlestmt_mixedlang = element titlestmt {
+    title+
+}
+
+
+title_nolang = element title {
+    attribute type { "subtitle" }?,
+    xsd:string
+}
 
 title = element title {
     attribute type { "subtitle" }?,
