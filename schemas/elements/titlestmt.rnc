@@ -11,7 +11,6 @@ titlestmt_mixedlang = element titlestmt {
     title+
 }
 
-
 title_nolang = element title {
     attribute type { "subtitle" }?,
     xsd:string
