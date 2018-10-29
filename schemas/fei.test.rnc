@@ -1,5 +1,7 @@
-include "_FEI.rnc"
-start = test
+include "elements/_collection.rnc"
+start = fei_start
+
+fei_start = fei | test
 test = element test {
-    fei*
+    fei_element*
 }

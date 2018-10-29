@@ -1,8 +1,7 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-
 timecode = (
     element timecode { timecode_format }
 )
+fei_element |= timecode
 
 timecode_range = (
     element timecodestart { timecode_format } | 

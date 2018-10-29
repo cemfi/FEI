@@ -1,6 +1,7 @@
 shotstmt = element shotstmt {
     shot*
 }
+fei_element |= shotstmt
 
 shot = element shot {
     attribute id { xsd:string }?,

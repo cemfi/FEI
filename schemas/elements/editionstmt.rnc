@@ -1,0 +1,19 @@
+editionstmt = element editionstmt {
+    edition+
+}
+fei_element |= editionstmt
+
+
+edition = element edition {
+    date &
+    element duration { timecode_format }? &
+    element source { xsd:string }? &
+    element desc { xsd:string }? &
+    attribute id { xsd:string }
+}
+
+
+editionreference = element editionreference {
+    attribute target { xsd:string }
+}
+fei_element |= editionreference

@@ -1,5 +1,6 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-
 namelike = persname | corpname
+fei_element |= namelike
+
+
 persname = element persname { xsd:string }
 corpname = element corpname { xsd:string }

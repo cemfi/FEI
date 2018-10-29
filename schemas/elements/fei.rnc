@@ -1,0 +1,16 @@
+fei = element fei {
+    element fhead { xsd:string },
+    fbody
+}
+fei_element |= fei
+
+
+fbody = element fbody {
+    fbodystatement*
+}
+fei_element |= fbody
+
+
+fbodystatement = (
+    quantstmt | editionstmt | shotstmt
+)

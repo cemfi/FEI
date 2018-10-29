@@ -4,6 +4,7 @@ quantstmt = element quantstmt {
     element quantdesc { xsd:string }?,
     quantitem+
 }
+fei_element |= quantstmt
 
 quantitem = element quantitem { # TODO: Entwirren
 (

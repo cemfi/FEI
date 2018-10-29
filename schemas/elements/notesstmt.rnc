@@ -1,8 +1,7 @@
-datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-
 notesstmt = element notesstmt {
     annot+
 }
+fei_element |= notesstmt
 
 annot = element annot {
     attribute type { xsd:string }?,

@@ -1,12 +1,2 @@
-fei = element fei {
-    element fhead { xsd:string },
-    fbody
-}
-
-fbody = element fbody {
-    fbodystatement*
-}
-
-fbodystatement = (
-    quantstmt | editionstmt | shotstmt
-)
+include "elements/_collection.rnc"
+start = fei

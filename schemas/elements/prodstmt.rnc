@@ -3,6 +3,7 @@ prodstmt = element prodstmt {
     (distributor*)?,
     (proditem*)?
 }
+fei_element |= prodstmt
 
 production = element production { namelike+, editionreference? }
 
