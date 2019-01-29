@@ -2,7 +2,7 @@
 
 Instructions:
 
-1\. Download the [Ex2Fei Folder](Ex2FEI.zip)
+1\. Download the [Ex2Fei Folder](https://github.com/cemfi/FEI/raw/master/apps/Ex2FEI/Ex2FEI.zip)
 
 The Folder contains two files:
 
