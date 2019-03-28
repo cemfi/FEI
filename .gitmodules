@@ -1,0 +1,3 @@
+[submodule "apps/fei-viewer"]
+	path = apps/fei-viewer
+	url = https://github.com/hubendubler/fei-viewer
