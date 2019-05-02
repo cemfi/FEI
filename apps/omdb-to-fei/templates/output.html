@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>OMDb to FEI</title>
+    <meta name="author" content="Jamie Lay">
+</head>
+<body>
+    <h1>OMDb to FEI (Film Encoding Initiative)</h1>
+    <h2>"{{ input }}"</h2>
+    {% if not success %}
+        <p>Movie not found!</p>
+        <a href="{{ url_for('index') }}">Try again...</a>
+    {% else %}
+        <pre>{{ output }}</pre>
+        <a href="{{ url_for('index') }}">Return</a>
+    {% endif %}
+</body>
+</html>

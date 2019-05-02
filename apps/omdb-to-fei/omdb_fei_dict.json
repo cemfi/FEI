@@ -1,0 +1,101 @@
+{
+    "title": {
+        "titlestmt": {
+            "title": ""
+        }
+    },
+    "released": {
+        "editionstmt": {
+            "edition": [
+                {
+                    "date": ""
+                }
+            ]
+        }
+    },
+    "runtime": {
+        "editionstmt": {
+            "edition": [
+                {
+                    "duration": ""
+                }
+            ]
+        }
+    },
+    "genre": {
+        "genrestmt": {
+            "genreitem": [
+                ""
+            ]
+        }
+    },
+    "director": {
+        "crewlist": {
+            "crewitem": [
+                {
+                    "role": [
+                        "director"
+                    ],
+                    "persname": ""
+                }
+            ]
+        }
+    },
+    "writer": {
+        "crewlist": {
+            "crewitem": [
+                {
+                    "role": [
+                        "writer"
+                    ],
+                    "persname": ""
+                }
+            ]
+        }
+    },
+    "actors": {
+        "castlist": {
+            "castitem": [
+                {
+                    "role": [
+                        "actor"
+                    ],
+                    "persname": ""
+                }
+            ]
+        }
+    },
+    "plot": {
+        "summary": ""
+    },
+    "language": {
+        "editionstmt": {
+            "edition": [
+                {
+                    "lang": [
+                        ""
+                    ]
+                }
+            ]
+        }
+    },
+    "dvd": {
+        "editionstmt": {
+            "edition": [
+                {
+                    "date": "",
+                    "desc": "DVD release"
+                }
+            ]
+        }
+    },
+    "production": {
+        "productionstmt": {
+            "production": {
+                "corpname": [
+                    ""
+                ]
+            }
+        }
+    }
+}
